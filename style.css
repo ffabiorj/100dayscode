@@ -1,0 +1,115 @@
+body  {
+        font-family: Arial, sans-serif;
+        color: #0a0909;
+        letter-spacing: 2px;
+}
+nav a {
+    float: right;
+    margin: 0 10px 0 ;
+    font-weight: normal;
+    text-decoration: none;
+}
+nav a {
+
+    float: none;
+    text-align: left;
+    font-weight: normal;
+    padding: 0;
+    font-weight: bold;
+
+}
+header {
+
+    text-align: right;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+.clearfix {
+  overflow: auto;
+}
+
+header nav a:link {
+    color: green;
+}
+
+/* visited link */
+header nav a:visited {
+    color: green;
+}
+
+/* mouse over link */
+header nav a:hover {
+    color: red;
+}
+
+/* selected link */
+header nav a:active {
+    color: yellow;
+}
+
+.img {
+    float: right;
+    margin-right: 30px;
+}
+
+
+.container {
+    font-size: 22px;
+    margin: 20px 0 50px 50px;
+}
+
+h1 {
+    font-size: 90px;
+    color: red;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+div {
+display: block;
+
+}
+.red {
+    color: red;
+    font-weight: bold;
+    font-size: 36px;
+}
+div a {
+    text-decoration: none;
+}
+.second_container {
+    border-top: 1px solid #5f5f5f;
+    border-bottom: 1px solid #5f5f5f;
+    padding: 30px 0;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 26px;
+    line-height: 1.6;
+}
+.list_sites {
+    padding: 10px 0 50px 0;
+    margin: 30px 0 20px 50px;
+}
+
+.button {
+    margin: 20px 600px;
+    background-color: white;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid black;
+}
