@@ -1,0 +1,56 @@
+body {
+    background: #333;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 700px;
+    margin: 30px auto 50px;
+    text-align: center;
+    color: #fff8f1;
+}
+
+#host {
+    font-family: Consolas, monaco, monospace;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.door {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.door_container {
+    margin: 30px auto 50px;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
