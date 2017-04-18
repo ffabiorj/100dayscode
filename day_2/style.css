@@ -41,9 +41,7 @@ a:link {
 }
 
 /* visited link */
-a:visited {
-    color: green;
-}
+a:visited {color:white;}
 
 /* mouse over link */
 a:hover {
@@ -51,6 +49,10 @@ a:hover {
 }
 
 /* selected link */
-a:active {
-    color: yellow;
+
+
+.button  {
+    display: block;
+    text-align: center;
+    
 }
